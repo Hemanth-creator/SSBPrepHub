@@ -51,3 +51,18 @@
             transform: translate(-50%, -50%);
         }
 }
+.containerabout{
+    position: relative;
+    background-color: rgb(134, 106, 44);
+}
+.AboutUs{
+    padding-top: 1.5cm;
+    color: white;
+}
+.AboutUsDesc {
+    padding-left: 1.3cm;
+    padding-top: .5cm;
+    padding-bottom: 3cm;
+    color: white;
+    margin-right: 1cm;
+}
