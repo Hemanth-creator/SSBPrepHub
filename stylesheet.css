@@ -1,0 +1,53 @@
+.navbar-brand{
+    color: white;
+    
+}
+.containerimg {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.image{
+    width:100%;
+    filter: brightness(40%);
+}
+.LargeText{
+    font-size: 6vw;
+    color: white;
+}
+/* Styling the button */
+.btn {
+    margin-top: 5%;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 45px;
+    width: 180px;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px white;
+}
+
+@media only screen and (max-width: 556px) {
+
+    /* For tablets: */
+    .top-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+}
+
+@media only screen and (min-width: 556px) {
+
+    /* For desktop: */
+    .top-center {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+}
