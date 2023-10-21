@@ -95,7 +95,19 @@
 .image1{
     width: 60%;
 }
+
 .ImageDesc{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImageDescH2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextbutton{
     padding-top: 3%;
     display: flex;
     justify-content: center;
