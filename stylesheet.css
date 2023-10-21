@@ -87,8 +87,17 @@
     margin-left: 13%;
     max-width:  100cm;
 }
+.Imagediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .image1{
-    max-width: 100%;
-    height: auto;
-    display: block
+    width: 60%;
+}
+.ImageDesc{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
